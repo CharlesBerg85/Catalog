@@ -1,6 +1,7 @@
 using System;
+using System.Linq;
 using System.Collections.Generic;
-using Catalog.Entities
+using Catalog.Entities;
 
 namespace Catalog.Repositories
 {
@@ -9,19 +10,19 @@ namespace Catalog.Repositories
     {
         private readonly List<Item> items = new()
         {
-            new InMemItemsRepository { Id= Guid.NewGuid(), Name = "Potion", Price = 9, CreatedDate = DateTimeOffset.UtcNow},
-            new InMemItemsRepository { Id= Guid.NewGuid(), Name = "Iron Sword", Price = 20, CreatedDate = DateTimeOffset.UtcNow},
-            new InMemItemsRepository { Id= Guid.NewGuid(), Name = "Bronze Shield", Price = 18, CreatedDate = DateTimeOffset.UtcNow}
+            new Item { Id= Guid.NewGuid(), Name = "Potion", Price = 9, CreatedDate = DateTimeOffset.UtcNow},
+            new Item { Id= Guid.NewGuid(), Name = "Iron Sword", Price = 20, CreatedDate = DateTimeOffset.UtcNow},
+            new Item { Id= Guid.NewGuid(), Name = "Bronze Shield", Price = 18, CreatedDate = DateTimeOffset.UtcNow}
         };
 
-        public IEnumerable<Item> GetItem()
+        public IEnumerable<Item> GetItems()
         {
-            retuen items;
+            return items;
         }
 
-        public InMemItemsRepository GetItem(Guid id)
+        public Item GetItem(Guid id)
         {
-            return items.Where(items => items.Id ==id).SingleOrDefault();
+            return items.Where(item => item.Id == id).SingleOrDefault();
         }
     }
 }
