@@ -15,6 +15,7 @@ using System.Net.Mime;
 using System.Text.Json;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Http;
+using Catalog.Repositories;
 namespace Catalog
 {
     public class Startup
@@ -29,7 +30,7 @@ namespace Catalog
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddSingleton<IItemsRepository, InMemItemsRepository>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
