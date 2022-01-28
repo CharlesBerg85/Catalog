@@ -27,5 +27,18 @@ namespace Catalog.Controllers
             var items = repository.GetItems();
             return items;
         }
+        //GET /items/{id}
+        [HttpGet("{id}")]
+        public ActionResult<Item> GetItem(Guid id)
+        {
+            var item = repository .GetItem(id);
+
+            if (item is null)
+            {
+                return NotFound();
+            }
+
+            return item;
+        }
     }
 }
