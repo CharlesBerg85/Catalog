@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Catalog.Entities
 {
@@ -12,5 +13,6 @@ namespace Catalog.Entities
         public decimal Price { get; init; }
 
         public DateTimeOffset CreatedDate { get; init; }
+
     }
 }
