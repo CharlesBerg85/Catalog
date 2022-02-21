@@ -5,7 +5,6 @@ C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Catalog.deps.json
 C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.json
 C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.dev.json
 C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Catalog.dll
-C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\ref\Catalog.dll
 C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Catalog.pdb
 C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -19,7 +18,6 @@ C:\Users\The Berg\Desktop\Projects\Catalog\obj\Debug\net5.0\Catalog.csproj.CoreC
 C:\Users\The Berg\Desktop\Projects\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\The Berg\Desktop\Projects\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\The Berg\Desktop\Projects\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.Manifest.cache
-C:\Users\The Berg\Desktop\Projects\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.xml
 C:\Users\The Berg\Desktop\Projects\Catalog\obj\Debug\net5.0\scopedcss\bundle\Catalog.styles.css
 C:\Users\The Berg\Desktop\Projects\Catalog\obj\Debug\net5.0\Catalog.RazorTargetAssemblyInfo.cache
 C:\Users\The Berg\Desktop\Projects\Catalog\obj\Debug\net5.0\Catalog.csproj.CopyComplete
@@ -43,3 +41,12 @@ C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\runtimes\win\native\
 C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Users\The Berg\Desktop\Projects\Catalog\obj\Debug\net5.0\refint\Catalog.dll
+C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\The Berg\Desktop\Projects\Catalog\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
